@@ -1,1 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  height: 70vh;
+  background: #FFFFFF;
+  border: 1px solid bl;
+  box-shadow: 5px 5px 5px 5px #E7E7E7;
+  position: relative;
+  top: 100px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* background: pink; */
+}
+.left > h3{
+   margin-top: 80px;
+   margin-left: 25px;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+.head > ul{
+  list-style-type: none;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+.head > img{
+  position: absolute;
+  width: 150px;
+  top: 5%;
+}
+.skills{
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 20px;
+}
+.skills-box-top{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+.skills-icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 8px;
+}
+.skills-line{
+  width: 95%;
+  height: 8px;
+  background: #C1C1C1;
+}
+.inner-line-1{
+  width: 90%;
+  height: 8px;
+  background-color: #0C78FF;
+}
+.inner-line-2{
+  width: 95%;
+  height: 8px;
+  background-color: #0C78FF;
+}
+.inner-line-3{
+  width: 99%;
+  height: 8px;
+  background-color: #0C78FF;
+}
+.inner-line-4{
+  width: 93%;
+  height: 8px;
+  background-color: #0C78FF;
+}
+
+.right{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.right-head{
+  width: 25%;
+}
+#horizental{
+  width: 70%;
+   height: 4px;
+   background-color: #0C78FF;
+   margin-top: 10px;
+}
